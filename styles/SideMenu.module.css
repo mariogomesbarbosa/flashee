@@ -1,6 +1,7 @@
 .sideMenu {
   background-color: black;
   color: white;
-  width: 300px;
+  min-width: 260px;
+  width: 25%;
   height: 100%;
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import SideMenu from '../components/SideMenu'
+import Content from '../components/Content'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <SideMenu />
+        <Content />
       </main>
 
       <footer className={styles.footer}>
